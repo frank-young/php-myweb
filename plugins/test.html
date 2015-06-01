@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>-.-</title>
+
+<script type="text/javascript" charset="utf-8" src="kindeditor/kindeditor.js"></script>
+<script type="text/javascript" charset="utf-8" src="kindeditor/lang/zh_CN.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script>
+        KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_id');
+        });
+
+</script>
+</head>
+<body>
+<form action="do.php" method="post">
+	<textarea name="pDesc" id="editor_id" style="width:500;height:500px;"></textarea>
+	<input type="submit" value="提交">
+</form>
+</body>
